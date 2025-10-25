@@ -1,0 +1,60 @@
++-------------------+
+|      Book         |
++-------------------+
+| - title: str      |
+| - author: str     |
+| - year: int       |
+| - category: str   |
++-------------------+
+| + add_book()      |
+| + view_books()    |
+| + update_book()   |
+| + delete_book()   |
++-------------------+
+
+           ▲
+           |
+           |
++-------------------+
+|    Category       |
++-------------------+
+| - name: str       |
+| - description: str|
++-------------------+
+| + add_category()  |
+| + view_categories()|
+| + update_category()|
+| + delete_category()|
++-------------------+
+
+           ▲
+           |
+           |
++-------------------+
+|     Member        |
++-------------------+
+| - name: str       |
+| - member_id: str  |
+| - email: str      |
++-------------------+
+| + add_member()    |
+| + view_members()  |
+| + update_member() |
+| + delete_member() |
++-------------------+
+
+           ▲
+           |
+           |
++-------------------+
+|    LibraryApp     |
++-------------------+
+| - books: list     |
+| - members: list   |
+| - categories: list|
++-------------------+
+| + run()           |
+| + menu()          |
+| + save_data()     |
+| + load_data()     |
++-------------------+
